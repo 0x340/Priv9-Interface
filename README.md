@@ -1,13 +1,13 @@
 *note really really old(~3y) unsure if it even works*
 
 # Preview:
-![Preview](assets/priv9.png)
+![Preview](preview.png)
  
 
 ## Loading the Library
 
 ```lua
-local library, notifications = loadstring(game:HttpGet("https://raw.githubusercontent.com/i77lhm/Libraries/refs/heads/main/Priv9/Library.lua"))()
+local library, notifications = loadstring(game:HttpGet("https://raw.githubusercontent.com/0x340/Priv9-Interface/blob/main/src/Library.lua"))()
 ```
 
 ## Window
