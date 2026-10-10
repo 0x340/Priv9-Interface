@@ -120,7 +120,7 @@ section:colorpicker({
 section:button({
   name = <string>,
 
-  callback = <function>
+  callback = function()
 })
 ```
 
