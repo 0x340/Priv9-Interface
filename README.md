@@ -4,80 +4,74 @@
 ![Preview](preview.png)
  
 
-## Loading the Library
+**Loading the Library**
 
 ```lua
 local library, notifications = loadstring(game:HttpGet("https://raw.githubusercontent.com/0x340/Priv9-Interface/blob/main/src/Library.lua"))()
 ```
 
-## Window
+**Window**
 ```lua
 local window = library:window({
   name = <sting> -- window name
 })
 ```
 
-Field	Type	Description
-name	<string>	Title of the window.
-
-
-## Notifications
+**Notifications**
 ```lua
 notifications:create_notification({
-  name = <string> -- notification text
+  name = <string> --// notification text
 })
 ```
-Field	Type	Description
-name	<string>	Text to display.
 
 
-## Tabs
+**Tabs**
 ```lua
 local tab = window:tab({
-  name = <string> -- 
+  name = <string> --// tab names
 })
 ```
 
 
-## Columns
+**Columns**
 ```lua
 local column = tab:column({})
 ```
 
 
-## Sections
+**Sections**
 ```lua
 local section = column:section({
   name = <string>,
   auto_fill = <boolean>,
-  size = <number>
+  size = <number>,
 
   callback = function()
 })
 ```
 
 
-## Toggle
+**Checkbox**
 ```lua
 section:toggle({
   name = <string>,
-  flag = <string>
+  flag = <string>,
 
   callback = function()
 })
 ```
 
-## Keybind
+**Keybind**
 ```lua
 section:keybind({
-  name = <string>
+  name = <string>,
 
   callback = function()
 })
 ```
 
 
-## Sliders
+**Sliders**
 ```lua
 section:slider({
   name = <string>,
@@ -85,20 +79,20 @@ section:slider({
   max = <number>,
   default = <number>,
   interval = <number>,
-  suffix = <string>
+  suffix = <string>,
 
   callback = function()
 })
 ```
 
 
-## Dropdown
+**Combo**
 ```lua
 section:dropdown({
   name = <string>,
   flag = <string>,
   items = {<string>, <string>},
-  default = <string>
+  default = <string>,
 
   callback = function()
 })
@@ -118,7 +112,7 @@ section:colorpicker({
 ```
 
 
-## Button
+**Button**
 ```lua
 section:button({
   name = <string>,
@@ -128,7 +122,7 @@ section:button({
 ```
 
 
-## Config
+**Config**
 ```lua
 library:init_config(window)
 ```
