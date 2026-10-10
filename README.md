@@ -16,7 +16,7 @@ local library, notifications = loadstring(game:HttpGet("https://raw.githubuserco
 **Window**
 ```lua
 local window = library:window({
-  name = <sting> -- window name
+  name = <sting> --// window name
 })
 ```
 
@@ -46,7 +46,7 @@ local column = tab:column({})
 ```lua
 local section = column:section({
   name = <string>,
-  auto_fill = <boolean>,
+  auto_fill = <boolean>, --// auto size
   size = <number>,
 
   callback = function()
@@ -57,8 +57,8 @@ local section = column:section({
 **Checkbox**
 ```lua
 section:toggle({
-  name = <string>,
-  flag = <string>,
+  name = <string>, --// checkbox name
+  flag = <string>, --// config name
 
   callback = function()
 })
