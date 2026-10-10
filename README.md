@@ -5,6 +5,8 @@
 ![Preview](preview.png)
  
 
+You can also find a quick example in the ``Example.lua``
+
 **Loading the Library**
 
 ```lua
@@ -100,7 +102,7 @@ section:dropdown({
 ```
 
 
-## ColorPicker
+**ColorPicker**
 ```lua
 section:colorpicker({
   name = <string>,
