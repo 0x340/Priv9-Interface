@@ -1,4 +1,4 @@
-## How 2 Use
+*note really really old(~3y) unsure if it even works*
 
 # Preview:
 ![Preview](assets/priv9.png)
@@ -9,10 +9,6 @@
 ```lua
 local library, notifications = loadstring(game:HttpGet("https://raw.githubusercontent.com/i77lhm/Libraries/refs/heads/main/Priv9/Library.lua"))()
 ```
- 
-library → Main UI library object
-
-notifications → Notification manager object
 
 ## Window
 ```lua
